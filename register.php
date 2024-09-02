@@ -50,9 +50,9 @@ if(isset($_REQUEST['submit']))
      $mail->IsHTML(true);
      $mail->CharSet = 'UTF-8';
      //$mail->SMTPDebug = 2;
-     $mail->Username = "vansh456patel@gmail.com";
-     $mail->Password = "xbgkodasljpypceu";
-     $mail->SetFrom("vansh456patel@gmail.com");
+     $mail->Username = "your email address";
+     $mail->Password = "that email address appkey";
+     $mail->SetFrom("your email address");
      $mail->Subject = $subject;
      $mail->Body = $msg;
      $mail->AddAddress($to);
