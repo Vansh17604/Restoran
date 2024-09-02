@@ -88,11 +88,11 @@ if(isset($_POST["recover"])){
             $mail->SMTPSecure = 'tls';
 
             // h-hotel account
-            $mail->Username = 'vansh456patel@gmail.com';
-            $mail->Password = 'xbgkodasljpypceu';
+            $mail->Username = 'your email address';
+            $mail->Password = 'its appkey';
 
             // send by h-hotel email
-            $mail->setFrom('vansh456patel@gmail.com', 'Password Reset');
+            $mail->setFrom('your email address', 'Password Reset');
             // get email from input
             $mail->addAddress($email);
             //$mail->addReplyTo('lamkaizhe16@gmail.com');
